@@ -1,3 +1,2 @@
-# hello-world
-my first repos
-My name is abdoulaye and I am starting using Github
+# Loan prediction model
+This is a deployment for a machine learning project
