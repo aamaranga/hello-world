@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Loan Prediction API</title>
+</head>
+<body
+    style="background-color:LightGray;">
+    <div style='text-align:center'>
+	 <img src="/static/logo.png" >
+	</div>
+	<div style='text-align:center'>
+		
+		<h1 style='color:blue'>Loan Prediction Model (79% accuracy)</h1>
+<div>
+  <form action="/result" method="POST">
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+		<option value="0">F</option>
+		<option value="1">M</option>
+	</select>
+    <br><br><br>
+    <label for="married">Married</label>
+    <select id="married" name="married">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br><br><br>
+    <label for="dependents">Dependents</label>
+    <select id="dependents" name="dependents">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3+</option>
+    </select>
+    <br><br><br>
+    <label for="education">Education</label>
+    <select id="education" name="education">
+      <option value="0">Graduate</option>
+      <option value="1">Not Graduate</option>
+    </select>
+	<br><br><br>
+    <label for="employed">Self Employed</label>
+    <select id="employed" name="employed">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+	<br><br><br>
+    <label for="appincome">Applicant Income </label>
+    <input type="number" id="appincome" name="appincome">
+	<br><br><br>
+	<label for="coappincome">CoApplicant Income </label>
+    <input type="number" id="coappincome" name="coappincome">
+	<br><br><br>
+	<label for="amount">Loan Amount </label>
+    <input type="number" id="amount" name="amount">
+	<br><br><br>
+	<label for="term">Loan Amount Term </label>
+    <input type="text" id="term" name="term">
+	<br><br><br>
+    <label for="credit">Credit History</label>
+    <select id="credit" name="credit">
+      <option value="0">0</option>
+      <option value="1">1</option>
+    </select>
+	<br><br><br>
+    <label for="area">Property Area</label>
+    <select id="area" name="area">
+      <option value="0">Rural</option>
+      <option value="2">Urban</option>
+      <option value="1">Semiurban</option>
+    </select>
+    <br><br><br>
+    <input type="submit" value="Submit">
+  </form>
+    
+</div>
+</body>
+</html>
